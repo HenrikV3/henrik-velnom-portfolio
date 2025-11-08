@@ -1,0 +1,568 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Henrik Velnom - Professional Portfolio">
+    <title>Henrik Velnom | Portfolio</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png?v=3">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png?v=3">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?v=3">
+    <link rel="shortcut icon" href="favicon.ico?v=3">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Cormorant+Garamond:wght@400;600;700&family=Trocchi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <span>Henrik Velnom</span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#home" class="nav-item active" data-translate="nav.home">Home</a></li>
+                <li><a href="#about" class="nav-item" data-translate="nav.about">About</a></li>
+                <li><a href="#experience" class="nav-item" data-translate="nav.experience">Experience</a></li>
+                <li><a href="#projects" class="nav-item" data-translate="nav.projects">Projects</a></li>
+                <li><a href="#skills" class="nav-item" data-translate="nav.skills">Skills</a></li>
+                <li><a href="#certifications" class="nav-item" data-translate="nav.certifications">Certifications</a></li>
+                <li><a href="#contact" class="nav-item" data-translate="nav.contact">Contact</a></li>
+                <li class="language-switcher">
+                    <button class="lang-btn" id="lang-btn" aria-label="Language">
+                        <i class="fas fa-globe"></i>
+                        <span data-translate="nav.language">EN</span>
+                    </button>
+                    <div class="lang-dropdown" id="lang-dropdown">
+                        <button class="lang-option" data-lang="en">English</button>
+                        <button class="lang-option" data-lang="fr">Français</button>
+                        <button class="lang-option" data-lang="ja">日本語</button>
+                    </div>
+                </li>
+            </ul>
+            <button class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container hero-container">
+            <div class="hero-top">
+                <div class="hero-content">
+                    <div class="hero-badge" data-translate="hero.badge">Available for Opportunities</div>
+                    <h1 class="hero-title">
+                        <span class="title-main">Henrik Velnom</span>
+                        <span class="title-sub" data-translate="hero.subtitle">Overseas Business/PR & Digital Specialist</span>
+                    </h1>
+                </div>
+                <div class="hero-photo-wrapper">
+                    <div class="hero-photo">
+                        <img src="hgv.png" alt="Henrik Velnom" class="hero-photo-img">
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <a href="#contact" class="cta-primary" data-translate="hero.connect">Let's Connect</a>
+                    <a href="#projects" class="cta-secondary">
+                        <span data-translate="hero.viewWork">View Work</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-value">8+</div>
+                    <div class="stat-label" data-translate="hero.years">Years</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">100+</div>
+                    <div class="stat-label" data-translate="hero.clients">Clients</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">4</div>
+                    <div class="stat-label" data-translate="hero.languages">Languages</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-top">
+                <span class="section-num">01</span>
+                <h2 class="section-title" data-translate="about.title">About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-main">
+                    <p class="about-lead" data-translate="about.lead">
+                        International Relations, Digital Marketing & PR specialist
+                    </p>
+                    <div class="about-text-content">
+                        <p class="about-text" data-translate="about.text1">
+                            Former professional esports coach with a recognized track record in the industry. I later continued my career at Vector Group, Japan's leading public relations firm.
+                        </p>
+                        <p class="about-text" data-translate="about.text2">
+                            As an experienced manager, I am specialized in leading multicultural teams, international business development, digital marketing.
+                        </p>
+                        <p class="about-text" data-translate="about.text3">
+                            As a polyglot fluent in four languages, including Japanese, I serve as a crucial intercultural bridge, facilitating collaboration between high-profile international figures, executive directors, and government organizations. My global track record includes successful partnerships across the USA, France, Saudi Arabia, Korea, and Japan.
+                        </p>
+                    </div>
+                    <div class="about-info">
+                        <div class="about-info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span data-translate="about.location">Tokyo</span>
+                        </div>
+                        <div class="about-info-item">
+                            <i class="fas fa-id-card"></i>
+                            <span data-translate="about.nationality">France</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-skills">
+                    <div class="skill-box">
+                        <div class="skill-icon">01</div>
+                        <h3 data-translate="about.skill1.title">Composed Decision-Making</h3>
+                        <p data-translate="about.skill1.desc">Remain calm and think clearly to find solutions in challenging situations.</p>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-icon">02</div>
+                        <h3 data-translate="about.skill2.title">Collaboration & Leadership</h3>
+                        <p data-translate="about.skill2.desc">Trusted by colleagues, fostering teamwork while taking initiative.</p>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-icon">03</div>
+                        <h3 data-translate="about.skill3.title">Empathy & Consideration</h3>
+                        <p data-translate="about.skill3.desc">Thoughtful and attentive to others' perspectives and communication.</p>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-icon">04</div>
+                        <h3 data-translate="about.skill4.title">Responsibility & Execution</h3>
+                        <p data-translate="about.skill4.desc">Committed to delivering results with accountability and follow-through.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-top">
+                <span class="section-num">02</span>
+                <h2 class="section-title" data-translate="experience.title">Experience</h2>
+            </div>
+            <div class="exp-list">
+                <div class="exp-card">
+                    <div class="exp-meta">
+                        <span class="exp-badge" data-translate="experience.badge">Current</span>
+                        <span class="exp-date">2018 - Present</span>
+                    </div>
+                    <h3 class="exp-title" data-translate="experience.exp1.title">Overseas Business Team Lead</h3>
+                    <h4 class="exp-company" data-translate="experience.exp1.company">Brand Cloud inc. - Operations Department</h4>
+                    <div class="exp-desc" data-translate="experience.exp1.desc">
+                        <p>Joined Brand Cloud from Vector Group, Top 10 global public relations firm in 2017. I quickly took on responsibilities in international business development and digital strategy. Led international business development, supervised international projects, and managed local and international teams.</p>
+                        <p><b>Overseas Business Development:</b></p>
+                        <p><span style="color: #10b981;"><b>1- Market Expansion & Strategy</b></span><br>
+                        → Identify and evaluate new international markets for business opportunities.<br>
+                        → Analyze local competition, regulatory environments, and cultural nuances.</p>
+                        <p><span style="color: #10b981;"><b>2- Sales & Business Development</b></span><br>
+                        → Build and maintain relationships with overseas clients, and partners.<br>
+                        → Negotiate contracts and close deals with international stakeholders.</p>
+                        <p><span style="color: #10b981;"><b>3- Operational Management</b></span><br>
+                        → Oversee and coordinate with local, foreign teams, and third-party service providers.</p>
+                        <p><span style="color: #10b981;"><b>4- Cultural & Team Leadership</b></span><br>
+                        → Adapt business practices to local cultures and customs.<br>
+                        → Lead and mentor local teams, ensuring alignment with company values and goals.<br>
+                        → Resolve conflicts and foster collaboration across diverse teams.</p>
+                        <p><b>Other:</b><br>
+                        Online Reputation Management Consulting<br>
+                        Content Management<br>
+                        Client, Partner and Operational teams main support<br>
+                        Web Direction - UIUX Design<br>
+                        Team Management (12 people)</p>
+                    </div>
+                    <ul class="exp-tags">
+                        <li data-translate="experience.exp1.tag1">Business Development</li>
+                        <li data-translate="experience.exp1.tag2">Project Management</li>
+                        <li data-translate="experience.exp1.tag3">Sales Training</li>
+                        <li data-translate="experience.exp1.tag4">Contract Negotiation</li>
+                    </ul>
+                </div>
+                
+                <div class="exp-card">
+                    <div class="exp-meta">
+                        <span class="exp-date">2017 - 2018</span>
+                    </div>
+                    <h3 class="exp-title" data-translate="experience.exp2.title">League of Legends eSports Head Coach</h3>
+                    <h4 class="exp-company" data-translate="experience.exp2.company">Burning Core - ScarZ</h4>
+                    <div class="exp-desc" data-translate="experience.exp2.desc">
+                        <p>Managed League of Legends Professional Esports Team operations. Achieved LJLCS 2018 Spring championship and qualified for LJL 2018 Summer.</p>
+                        <p>Head Coach of Burning Core, later ScarZ BurningCore (League of Legends team).</p>
+                        <p><b>Roles:</b></p>
+                        <p><span style="color: #10b981;"><b>1-Leadership & Motivation:</b></span><br>
+                        → Team cohesion: Fostering an environment where players feel supported and aligned with shared goals.<br>
+                        → Failure management: Turning losses into learning and growth opportunities.<br>
+                        → Celebrating collective success: Strengthening confidence and team spirit.</p>
+                        <p><span style="color: #10b981;"><b>2-eSports Expertise:</b></span><br>
+                        → Game strategy (drafts, macro/micro management).<br>
+                        → Effective communication with players and staff.<br>
+                        → Adapting to competitive pressure, especially in the LJL ecosystem, where Japanese teams compete against international structures.</p>
+                        <p><span style="color: #10b981;"><b>3-Achievements:</b></span><br>
+                        → 1st place in the LJL Challenger Series (LJL CS) regular season.<br>
+                        → Promotion to Japan's top national league (LJL).<br>
+                        → Player selected to represent Japan at the 2018 Asian Games (Jakarta-Palembang).</p>
+                    </div>
+                    <ul class="exp-tags">
+                        <li data-translate="experience.exp2.tag1">Team Management</li>
+                        <li data-translate="experience.exp2.tag2">Coaching</li>
+                        <li data-translate="experience.exp2.tag3">Leadership</li>
+                    </ul>
+                </div>
+    </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-top">
+                <span class="section-num">03</span>
+                <h2 class="section-title" data-translate="projects.title">Featured Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-header">
+                        <span class="project-year">2025</span>
+                        <span class="project-status" data-translate="projects.featured">Featured</span>
+                    </div>
+                    <h3 class="project-title" data-translate="projects.proj1.title">Cat's Eye (Disney+)</h3>
+                    <p class="project-desc" data-translate="projects.proj1.desc">
+                        Served as project manager for the creation of the theme song for the anime <b>Cat's Eye</b>, which aired globally on <b>Disney+</b>, strengthening the connection between Japanese pop culture and international audiences. In collaboration with the famous Japanese composer and arranger <b>Yuki Hayashi</b>. Best known for his work on the soundtracks for anime, television series, and films. His notable works include <b>Haikyū!!, and My Hero Academia</b>.
+                    </p>
+                    <div class="project-media">
+                        <div class="project-images">
+                            <img src="1758264004007 (1).jpeg" alt="Cat's Eye Project Image 1" class="project-image">
+                            <img src="1758264010550 (1).jpeg" alt="Cat's Eye Project Image 2" class="project-image">
+                            <img src="d9dd0167-85f2-449b-be7a-29b619cb13b0 4.jpg" alt="Cat's Eye Project Image 3" class="project-image">
+                        </div>
+                    </div>
+                    <div class="project-tags">
+                        <span data-translate="projects.proj1.tag1">Music</span>
+                        <span data-translate="projects.proj1.tag2">Famous Anime</span>
+                        <span data-translate="projects.proj1.tag3">Worldwide Streaming Platform</span>
+                        <span data-translate="projects.proj1.tag4">Project Management</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-year">2025</span>
+                    </div>
+                    <h3 class="project-title" data-translate="projects.proj2.title">SCORY KOVITCH × HAN-KUN (湘南乃風) - Perfect L0ve</h3>
+                    <p class="project-desc" data-translate="projects.proj2.desc">
+                        Contributed to the production of a love anthem, symbolizing the union between the French Caribbean 🇫🇷 and Japan 🇯🇵, performed in Japanese by the acclaimed artist <b>Han-Kun</b>. This project showcased his ability to blend cultural influences and build artistic bridges between the West and Asia.
+                    </p>
+                    <div class="project-media">
+                        <div class="project-images">
+                            <img src="1719.jpg" alt="SCORY KOVITCH × HAN-KUN - PERFECT L0VE 1" class="project-image">
+                            <img src="[Cover] Scory Kovitch x Han-Kun - Perfect L0ve.jpg" alt="SCORY KOVITCH × HAN-KUN - PERFECT L0VE" class="project-image">
+                        </div>
+                        <div class="project-video">
+                            <iframe 
+                                src="https://www.youtube.com/embed/hOUAZ7Tc1ro" 
+                                title="SCORY KOVITCH × HAN-KUN - PERFECT L0VE"
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen
+                                class="project-video-iframe">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="project-tags">
+                        <span data-translate="projects.proj2.tag1">Music</span>
+                        <span data-translate="projects.proj2.tag2">Creative Production</span>
+                        <span data-translate="projects.proj2.tag3">Project Management</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-year">2017-Now</span>
+                    </div>
+                    <h3 class="project-title" data-translate="projects.proj3.title">International Business Development</h3>
+                    <p class="project-desc" data-translate="projects.proj3.desc">
+                        As Team Lead (International Business Development & Marketing), I managed global projects, <b>working directly with senior leaders, CEOs, and government officials</b> to negotiate strategic partnerships and reinforce international cooperation and mutual assistance. My trilingual skills (Japanese, English, and French) and Public Relations expertise were instrumental in navigating complex economic diplomacy and cross-cultural efforts.
+                    </p>
+                    <div class="project-media">
+                        <div class="project-images">
+                            <img src="henrik (1).jpg" alt="International Relations" class="project-image">
+                            <img src="imageedit_9_3638625090.jpg" alt="International Relations 2" class="project-image">
+                            <img src="176241556825903773.jpeg" alt="International Relations 3" class="project-image">
+                        </div>
+                    </div>
+                    <div class="project-tags">
+                        <span data-translate="projects.proj3.tag1">International Relations</span>
+                        <span data-translate="projects.proj3.tag2">Diplomacy</span>
+                        <span data-translate="projects.proj3.tag3">Marketing</span>
+                        <span data-translate="projects.proj3.tag4">Promotion</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-year">2017-2018</span>
+                    </div>
+                    <h3 class="project-title" data-translate="projects.proj4.title">Head Coach for Burning Core - League of Legends</h3>
+                    <p class="project-desc" data-translate="projects.proj4.desc">
+                        Joined the <b>Japanese eSports League of Legends team Burning Core</b> under the pseudonym "<b>Hope of Nation</b>"—a name that embodies my ambitious vision and my commitment to inspire beyond borders. Quickly recognized for my skills, I was promoted to <b>Head Coach.</b> Throughout my career, I contributed to the rise of several players, one of whom represented Japan at the <b>2018 Asian Games.</b> Under my leadership, the team also gained promotion to the <b>first division</b> and maintained its position, thus solidifying my reputation in the competitive environment.
+                    </p>
+                    <div class="project-media">
+                        <div class="project-images">
+                            <img src="IMG_8663 (1).jpg" alt="Hope_of_Nation_LoL" class="project-image">
+                            <img src="IMG_8664 (1).jpg" alt="Hope_of_Nation_Lol_esports" class="project-image">
+                            <img src="IMG_8665 (1).jpg" alt="Hope_of_Nation" class="project-image">
+                        </div>
+                    </div>
+                    <div class="project-tags">
+                        <span data-translate="projects.proj4.tag1">eSports</span>
+                        <span data-translate="projects.proj4.tag2">League of Legends</span>
+                        <span data-translate="projects.proj4.tag3">Head Coach</span>
+                        <span data-translate="projects.proj4.tag4">Promoted to 1st Division</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-top">
+                <span class="section-num">04</span>
+                <h2 class="section-title" data-translate="skills.title">Skills & Expertise</h2>
+            </div>
+            <div class="skills-content">
+                <div class="skills-group">
+                    <h3 class="group-title" data-translate="skills.languages">Languages</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-name" data-translate="skills.lang.french">French</span>
+                            <div class="skill-track">
+                                <div class="skill-fill" data-width="100"></div>
+                            </div>
+                            <span class="skill-level" data-translate="skills.native">Native</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name" data-translate="skills.lang.japanese">Japanese</span>
+                            <div class="skill-track">
+                                <div class="skill-fill" data-width="85"></div>
+                            </div>
+                            <span class="skill-level" data-translate="skills.business">Business</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name" data-translate="skills.lang.english">English</span>
+                            <div class="skill-track">
+                                <div class="skill-fill" data-width="90"></div>
+                            </div>
+                            <span class="skill-level" data-translate="skills.business">Business</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name" data-translate="skills.lang.spanish">Spanish</span>
+                            <div class="skill-track">
+                                <div class="skill-fill" data-width="20"></div>
+                            </div>
+                            <span class="skill-level" data-translate="skills.beginner">Beginner</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-group">
+                    <h3 class="group-title" data-translate="skills.technical">Technical Skills</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-name" data-translate="skills.tech.leadership">Leadership</span>
+                            <div class="skill-track">
+                                <div class="skill-fill" data-width="90"></div>
+                            </div>
+                            <span class="skill-level" data-translate="skills.advanced">Advanced</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name" data-translate="skills.tech.intercultural">Intercultural Communication</span>
+                            <div class="skill-track">
+                                <div class="skill-fill" data-width="85"></div>
+                            </div>
+                            <span class="skill-level" data-translate="skills.advanced">Advanced</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name" data-translate="skills.tech.diplomacy">Digital Diplomacy</span>
+                            <div class="skill-track">
+                                <div class="skill-fill" data-width="88"></div>
+                            </div>
+                            <span class="skill-level" data-translate="skills.advanced">Advanced</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name" data-translate="skills.tech.negotiation">Negotiation & Mediation</span>
+                            <div class="skill-track">
+                                <div class="skill-fill" data-width="85"></div>
+                            </div>
+                            <span class="skill-level" data-translate="skills.advanced">Advanced</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-group">
+                    <h3 class="group-title" data-translate="skills.tools">Tools & Platforms</h3>
+                    <div class="tools-list">
+                        <span class="tool">Asana</span>
+                        <span class="tool">Jira</span>
+                        <span class="tool">Slack</span>
+                        <span class="tool">Ahrefs</span>
+                        <span class="tool">SEMrush</span>
+                        <span class="tool">Google Analytics</span>
+                        <span class="tool">ChatGPT</span>
+                        <span class="tool">Figma</span>
+                        <span class="tool">Adobe</span>
+                        <span class="tool">WordPress</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="certifications">
+            <div class="container">
+                <div class="section-top">
+                    <span class="section-num">05</span>
+                    <h2 class="section-title" data-translate="certifications.title">Certifications</h2>
+                </div>
+                <div class="certifications-grid">
+                    <div class="cert-card">
+                        <div class="cert-header">
+                            <i class="fas fa-certificate"></i>
+                            <span class="cert-date">2025</span>
+                        </div>
+                        <h3 class="cert-name" data-translate="certifications.cert1.name">Digital Marketing Training</h3>
+                        <h4 class="cert-issuer" data-translate="certifications.cert1.issuer">D-Marketing Academy, Tokyo, Japan</h4>
+                        <p class="cert-desc" data-translate="certifications.cert1.desc">
+                            Completed comprehensive digital marketing training program covering modern 
+                            marketing strategies, analytics, and digital advertising techniques.
+                        </p>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-header">
+                            <i class="fas fa-certificate"></i>
+                            <span class="cert-date">2013</span>
+                        </div>
+                        <h3 class="cert-name" data-translate="certifications.cert2.name">Japanese Proficiency (N2)</h3>
+                        <h4 class="cert-issuer" data-translate="certifications.cert2.issuer">Meiji University, Tokyo, Japan</h4>
+                        <p class="cert-desc" data-translate="certifications.cert2.desc">
+                            Completed Japanese language proficiency program achieving N2 level, 
+                            demonstrating advanced business-level Japanese language skills.
+                        </p>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-header">
+                            <i class="fas fa-certificate"></i>
+                            <span class="cert-date">2011</span>
+                        </div>
+                        <h3 class="cert-name" data-translate="certifications.cert3.name">English Proficiency (C1)</h3>
+                        <h4 class="cert-issuer" data-translate="certifications.cert3.issuer">EMBASSY CES (Now EC Embassy), New York, USA</h4>
+                        <p class="cert-desc" data-translate="certifications.cert3.desc">
+                            Completed English language proficiency program achieving C1 level, 
+                            demonstrating advanced business-level English communication skills.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+  
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-top">
+                <span class="section-num">06</span>
+                <h2 class="section-title" data-translate="contact.title">Get In Touch</h2>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <p class="contact-intro" data-translate="contact.intro">
+                        I'm always open to discussing new projects, creative ideas, 
+                        or opportunities to be part of your visions.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4 data-translate="contact.email">Email</h4>
+                                <a href="mailto:henrikvelnom@gmail.com">henrikvelnom@gmail.com</a>
+                            </div>
+                        </div>
+                       
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4 data-translate="contact.location">Location</h4>
+                                <p>Tokyo, Japan</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-globe"></i>
+                            <div>
+                                <h4 data-translate="contact.language">Language</h4>
+                                <p>French, Japanese, English, Spanish</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/henrik-v-165989113/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                
+                      <a href="https://lol.fandom.com/wiki/Hope_of_Nation" aria-label="League of Legends" class="social-l" target="_blank"><span class="social-l-text">L</span></a>
+                        <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="name" data-translate="contact.name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="email" data-translate="contact.email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <div class="form-field">
+                        <label for="subject" data-translate="contact.subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="message" data-translate="contact.message">Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn" data-translate="contact.sendMessage">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Henrik Velnom. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
